@@ -1,0 +1,18 @@
+# Instalar VSCode
+1. Clonar repositorio VsCode do AUR (ArchLinux User Repository)
+git clone https://aur.archlinux.org/visual-studio-code-bin.git
+
+2. Entrar na pasta clonada
+cd visual-studio-code-bin
+
+3. Criar pacote e baixar dependencias
+makepkg --syncdeps
+
+3. Instalar pacote compilado
+sudo pacman -U visual-*.pkg.tar.zst
+
+4. Voltar para a pasta anterior
+cd ..
+
+5. Remover pasta que nao é mais necessaria
+sudo rm -r visual-studio-code-bin
