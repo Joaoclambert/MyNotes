@@ -23,3 +23,14 @@ asdf install java $VERSION (ex: oracle-20.0-1)
 4.Definir a versao global
 asdf global java $VERSION (ex: oracle-20.0.1) 
 
+----------------------------
+
+Fazer commit GitHub
+
+1 - git init
+2 - git add .
+3 - git commit -m "Mensagen sua"
+4 - git status (para ver andamento)
+5 - git remote add oriin (git@github) pega no github
+6 - git push -u origin main
+
