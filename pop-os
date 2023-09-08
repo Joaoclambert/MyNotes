@@ -3,16 +3,30 @@ sudo dpkg -i nome arquivo
 ----------------------------
 # Instalando e configurando asdf
 
-1. Clone asdf
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
-
-2. Informar caminho ao bash ou zsh
+1.Vai para github asdf
+2. Clica no link e vai para get started
+3. Vai nas dependencia e instala o 'curl'
+4. Instala o asdf 'git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0'
+5. Informar caminho ao bash ou zsh (Pode tambem abrir o gedit e copiar/colar)
 echo ". $HOME/.asdf/asdf.sh" >> .bashrc
 echo ". $HOME/.asdf/completions/asdf.bash" >> .bashrc
 echo ". $HOME/.asdf/asdf.sh" >> .zshrc
-
-3. Reiniciar o terminal
+6. Reiniciar o terminal
 ----------------------------
+#Instalando o nodejs
+1. Vai para asdf nodejs
+2. Vai em seleciona link e vai em install
+3. Vai no terminal para asdf plugin-list (Vai estar lá o nodejs)
+4. No terminal digita asdf çis-all nodejs (Vai aparecer todas as versoes do node disponivel)
+5. Escolha a versao para instalar (No site nodejs.org)
+6. asdf install nodejs (versao)
+7. Declara o uso global com o comando -  asdf global nodejs (versao)
+8. Confirma a instalaçao com os comandos - node -v  e npm -v
+
+
+
+
+
 # Instalando java com asdf:
 1. Adicionar plugin java ao asdf
 asdf plugin-add java https://github.com/halcyon/asdf-java.git
