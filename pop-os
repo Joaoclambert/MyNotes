@@ -23,9 +23,7 @@ echo ". $HOME/.asdf/asdf.sh" >> .zshrc
 7. Declara o uso global com o comando -  asdf global nodejs (versao)
 8. Confirma a instalaçao com os comandos - node -v  e npm -v
 
-
-
-
+-----------------------------------
 
 # Instalando java com asdf:
 1. Adicionar plugin java ao asdf
