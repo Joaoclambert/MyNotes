@@ -3,7 +3,7 @@ sudo dpkg -i nome arquivo
 ----------------------------
 # Instalando e configurando asdf
 
-1.Vai para github asdf
+1.Vai para github asdf-vm - 
 2. Clica no link e vai para get started
 3. Vai nas dependencia e instala o 'curl'
 4. Instala o asdf 'git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0'
