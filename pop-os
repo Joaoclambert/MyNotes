@@ -17,7 +17,7 @@ echo ". $HOME/.asdf/asdf.sh" >> .zshrc
 1. Vai para asdf nodejs
 2. Vai em seleciona link e vai em install
 3. Vai no terminal para asdf plugin-list (Vai estar lá o nodejs)
-4. No terminal digita asdf çis-all nodejs (Vai aparecer todas as versoes do node disponivel)
+4. No terminal digita asdf list-all nodejs (Vai aparecer todas as versoes do node disponivel)
 5. Escolha a versao para instalar (No site nodejs.org)
 6. asdf install nodejs (versao)
 7. Declara o uso global com o comando -  asdf global nodejs (versao)
